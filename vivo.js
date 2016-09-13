@@ -1,5 +1,5 @@
 const mqtt = require('mqtt')  
-const client = mqtt.connect('ws://test.mosquitto.org')
+const client = mqtt.connect('test.mosquitto.org')
 
 /**
 * The state of the garage, defaults to closed
